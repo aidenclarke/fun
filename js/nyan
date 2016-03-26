@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var c = require("skilstak-colors");
+
+while (true) {
+  process.stdout.write(c.multi("nyan") + " ");
+  //console.log(c.multi("nyan));
+
+}
